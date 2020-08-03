@@ -11,10 +11,9 @@ This repo is a walk though on how to setup Azure AD External Identities with an 
 * An Azure AD tenant 
 * An Azure Subscription which will host the ADFS server. 
     * Could also be an AWS Account or GCP Project
-* Access to create DNS records in 2 public domains 
-    * One associated with Azure AD as a custom domain
-    * One will be associated with the ADFS server
-    * In this walk through: bjdazure.tech is associated with the Azure AD tenanat and briandenicola.dev will host the ADFS federation 
+* Ownership of or access to a public DNS domain.  
+    * This domain will be used as the Authication URL and will be associated with the ADFS server
+    * Will be referenced as _adfsdomain_ in the documentation
 
 ## Notes
 * This walk through does not go into details on the differents between Azure AD tenants, B2B vs B2C, etc. It assumes a foundational understanding of Azure AD and Azure in general 
