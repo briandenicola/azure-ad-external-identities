@@ -28,4 +28,4 @@ This repo is a walk though on how to setup Azure AD External Identities with an 
 # Steps
 1. [Create ADFS VM and Intial ADFS Install](./adfs-configuration.md)
 2. [Configure ADFS Claims](./adfs-setup.md)
-3. [Confiugre Azure AD](./azure-ad-confiugration.md)
+3. [Confiugre Azure AD](./azure-ad-configuration.md)
