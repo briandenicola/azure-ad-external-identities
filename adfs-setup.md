@@ -4,7 +4,7 @@ This section will walk through the creation of the ADFS server, promption to a A
 
 An Windows 2019 Azure VM will be created that has a public IP Address 
 
-#Pre-requisties 
+# Pre-requisties 
 * A DNS name such as _sts.adfsdomain.com_ or _adfs.adfsdomain.com_
     * This walk through will use sts.briandenicola.dev
 
